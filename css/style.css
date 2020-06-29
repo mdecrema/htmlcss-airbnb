@@ -17,6 +17,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* IMMAGINI ---------------------------------------- */
 #sf {
     background-image: url(../img/san-francisco.jpeg);
     background-size: cover;
@@ -30,4 +31,15 @@
 #brc {
     background-image: url(../img/barcelona.jpg);
     background-size: cover;
+}
+
+/* TESTO ------------------------------------------- */
+.city-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 4px 4px #000;
 }
