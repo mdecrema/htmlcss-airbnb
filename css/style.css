@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.city {
+    width: 100%;
+    height: 100vh;
+    border: 10px solid #fff;
+}
+
+#sf {
+    background-image: url(../img/san-francisco.jpeg);
+    background-size: cover;
+}
+
+#ldn {
+    background-image: url(../img/london.webp);
+    background-size: cover;
+}
+
+#brc {
+    background-image: url(../img/barcelona.jpg);
+    background-size: cover;
+}
+
